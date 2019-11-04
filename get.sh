@@ -2,5 +2,5 @@
 
 if [ ! "$ARCHIVE_LINK" = "" ]
 then
-  mkdir res && curl -L $ARCHIVE_LINK | tar xzC single/static --strip 1
+  mkdir www && curl -L $ARCHIVE_LINK | tar xzC www --strip 1
 fi
